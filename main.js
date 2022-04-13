@@ -1,6 +1,6 @@
 "use strict"
 // Déclarer des variables
-let n = 5;
+let m = 5;
 //Déclaration multiples
 let a = 1,
     b = 2,
@@ -16,3 +16,12 @@ x = 0x7B; // 11 + 7*16 = 123 (en hexadecimal, il faut commencer par 0x)
 let s = "Toto";
 s = `j'aime "mon" toto`;
 console.log(`La TVA est à ${tauxDeTVA}`)
+// Les constantes, redefinissions impossible.
+const PI = 3.14;
+
+let n;
+console.log(typeof 2);
+console.log(typeof "2");
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof n)
